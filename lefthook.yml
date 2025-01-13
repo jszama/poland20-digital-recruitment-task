@@ -1,0 +1,7 @@
+pre-commit:
+  parallel: true
+  commands:
+    check:
+      # https://biomejs.dev/guides/editors/third-party-extensions/
+      glob: "*{.js,.jsx,.ts,.tsx,.d.ts,.json,.jsonc}"
+      run: pnpm check {staged_files}

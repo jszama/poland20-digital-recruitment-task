@@ -1,0 +1,35 @@
+{
+	"name": "poland20-web",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"postinstall": "next telemetry disable",
+		"dev": "next dev",
+		"build": "next build",
+		"check": "biome check --error-on-warnings",
+		"start": "next start",
+		"build-cloudflare": "pnpx @cloudflare/next-on-pages@1"
+	},
+	"dependencies": {
+		"@next/third-parties": "^14.2.15",
+		"buffer-image-size": "^0.6.4",
+		"class-variance-authority": "^0.7.0",
+		"clsx": "^2.1.0",
+		"next": "^14.2.2",
+		"react": "^18",
+		"server-only": "^0.0.1",
+		"sharp": "^0.33.4",
+		"tailwind-merge": "^2.3.0"
+	},
+	"devDependencies": {
+		"@biomejs/biome": "1.9.4",
+		"@types/node": "^20",
+		"@types/react": "^18.2.79",
+		"autoprefixer": "^10.4.19",
+		"lefthook": "^1.8.0",
+		"postcss": "^8.4.38",
+		"tailwindcss": "^3.4.3",
+		"typescript": "^5"
+	},
+	"packageManager": "pnpm@9.6.0+sha256.dae0f7e822c56b20979bb5965e3b73b8bdabb6b8b8ef121da6d857508599ca35"
+}
