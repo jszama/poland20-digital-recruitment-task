@@ -10,13 +10,17 @@ Jeśli nie jesteś w stanie zrobić nic – spokojnie! To może oznaczać, że j
 A jeśli uważasz, że zadanie jest do zrobienia na spokojnie, ale nie masz na nie czasu, napisz do nas na <a href="mailto:wiktor.jurkiewicz@poland20.com">wiktor.jurkiewicz@poland20.com</a> i przekonaj nas o swoich umiejętnościach. Chętnie zorganizujemy krótkiego calla i porozmawiamy.
 
 Masz jakieś pytania albo potrzebujesz pomocy? Pisz śmiało:
+
 <a href="mailto:wiktor.jurkiewicz@poland20.com">wiktor.jurkiewicz@poland20.com</a>
+
 <a href="mailto:artur.mucowski@poland20.com">artur.mucowski@poland20.com</a>
 
 Kiedy skończysz, podeślij link do swojego repozytorium na GitHubie na maila: <a href="mailto:wiktor.jurkiewicz@poland20.com">wiktor.jurkiewicz@poland20.com</a>.
+
 A jeszcze jedno – nie korzystaj z ChatGPT, bo to widać.
 
 Powodzenia!
+
 Wiktor i Artur 🫡!
 
 PS. Tutaj jest nasze oryginalne Readme:
