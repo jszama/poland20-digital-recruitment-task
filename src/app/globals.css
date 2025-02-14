@@ -1,3 +1,75 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.summit {
+	@apply flex flex-col w-full h-full gap-y-16;
+}
+
+.summit-tiles {
+	@apply flex flex-wrap gap-x-8 gap-y-12 flex-shrink;
+}
+
+.summit-tiles > * {
+	@apply w-full md:w-1/2 lg:w-1/3 xl:w-[30%];
+}
+
+.partners {
+	@apply flex flex-col w-full h-full gap-y-16;
+}
+
+.partners-logos-container {
+	@apply flex w-full flex-row flex-wrap gap-x-8 gap-y-8 flex-shrink;
+}
+
+.partners-container {
+	@apply flex flex-col w-auto gap-y-2;
+}
+
+.partners-container p {
+	@apply font-autonomous font-light text-xl;
+}
+
+.partners-container .partners-logos {
+	@apply flex w-full flex-row flex-wrap gap-x-8 gap-y-10 flex-shrink;
+}
+
+.our-projects {
+	@apply flex flex-col w-full h-full gap-y-16;
+}
+
+.our-projects-header {
+	@apply flex flex-col w-full gap-y-4;
+}
+
+.our-projects-tiles {
+	@apply flex flex-wrap gap-x-8 gap-y-12 flex-shrink;
+}
+
+.our-projects-tiles > * {
+	@apply w-full md:w-1/2 lg:w-1/3 xl:w-[30%];
+}
+
+.newsletter {
+	@apply flex flex-col w-full gap-y-8 rounded-3xl border-2 border-purple-700 bg-white/15 p-12 py-16 backdrop-blur-sm;
+}
+
+.newsletter-container {
+	@apply flex flex-row w-full h-full gap-y-12 gap-x-6 mb-8;
+}
+
+.newsletter-container p {
+	@apply w-2/5;
+}
+
+.newsletter-container form {
+	@apply w-3/5 relative;
+}
+
+.newsletter-container form p {
+	@apply text-red-500 text-xs;
+}
+
+.newsletter-container form button {
+	@apply my-4 absolute right-0;
+}
